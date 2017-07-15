@@ -1,0 +1,150 @@
+body {
+}
+
+.parallax-slider {
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    top: -177px;
+    left: 0px;
+    height: 899px;
+    width: 1349px;
+    max-width: none;
+}
+
+.parallax-mirror {
+    visibility: visible;
+    z-index: -100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    height: 938px;
+    width: 1349px;
+}
+
+.container {
+    width: 100%
+}
+
+.home {
+    box-sizing: border-box;
+    z-index: 2;
+    height: 468px;
+    width: 70%;
+    margin: auto;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: rgba(61, 25, 1, 0.11) 0px 13px 29px 0px;
+}
+
+.r-line {
+    margin-top: 70px; height: 198px;
+}
+
+.row {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.founder-element {
+    height: 68px;
+    left: 69px;
+    width: 68px;
+}
+
+.founder-image {
+    box-sizing: border-box;
+    z-index: 3;
+    height: 68px;
+    width: 68px;
+    left: 0px;
+    top: 0px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 999px;
+    box-shadow: rgba(39, 40, 51, 0.24) 0px 3px 8px 0px;
+}
+
+.founder-profile {
+    height: 198px;
+    margin: 20px;
+    width: 80%;
+}
+
+.founder-name {
+    box-sizing: border-box;
+    z-index: 3;
+    height: 24px;
+    left: 0px;
+    top: 5px;
+    overflow: visible;
+    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(104, 109, 133);
+    line-height: 1.4;
+    padding-top: 4px;
+}
+
+.element-text {
+    box-sizing: border-box;
+    z-index: 3;
+    height: 159px;
+    width: 100%;
+    left: 0px;
+    top: 39px;
+    overflow: visible;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: rgb(51, 53, 69);
+    line-height: 1.4;
+}
